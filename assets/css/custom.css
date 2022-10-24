@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px) {
+  .header-9 .logo {
+    margin-top: 3.5rem !important;
+    margin-bottom: 2.5rem;
+  }
+  .mobile-menu-container {
+    position: fixed;
+    left: -280px;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: #000000 !important;
+  }
+  .mobile-menu-light .mobile-menu li a:not(:hover):not(:focus) {
+    color: #fff;
+  }
+  .mobile-menu-light .mobile-menu li.open > a,
+  .mobile-menu-light .mobile-menu li.active > a {
+    color: white !important;
+  }
+  .mobile-menu-light .mobile-menu li ul li a:not(:hover):not(:focus) {
+    color: #fff;
+  }
+  .mobile-menu-light .social-icon {
+    color: #fff;
+    border-color: #fff;
+  }
+  .mobile-menu-container .social-icon {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.2rem;
+  }
+  .logo {
+    display: block;
+    margin-top: 4.4rem;
+    margin-bottom: 2.95rem;
+    flex-shrink: 0;
+    min-height: 25px;
+  }
+}
