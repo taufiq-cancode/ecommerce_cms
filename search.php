@@ -290,7 +290,7 @@
                         	$ress = $db->query($sqls);
                         	$counts=mysqli_num_rows($ress);
                         	
-                        	$sqlt="SELECT * FROM products WHERE category='T-shirts'";
+                        	$sqlt="SELECT * FROM products WHERE category='  Shirts'";
                         	$rest = $db->query($sqlt);
                         	$countt=mysqli_num_rows($rest);
                         	
@@ -328,14 +328,14 @@
                             }
                         }'>
             			<div class="banner banner-cat">
-                			<a href="shop.php?CATEGORY=T-shirts">
+                			<a href="shop.php?CATEGORY=  Shirts">
                 				<img src="assets/images/tsh.jpg" alt="FF T-Shirt">
                 			</a>
 
                 			<div class="banner-content banner-content-static text-center">
-                				<h3 class="banner-title">T-Shirts</h3><!-- End .banner-title -->
+                				<h3 class="banner-title">  Shirts</h3><!-- End .banner-title -->
                 				<h4 class="banner-subtitle"><?php echo $countt; ?> Products</h4><!-- End .banner-subtitle -->
-                				<a href="shop.php?CATEGORY=T-shirts" class="banner-link">Shop Now</a>
+                				<a href="shop.php?CATEGORY=  Shirts" class="banner-link">Shop Now</a>
                 			</div><!-- End .banner-content -->
             			</div><!-- End .banner -->
 
@@ -386,95 +386,4 @@
         </main><!-- End .main -->
 
    
-        <footer class="footer">
-        	<div class="footer-middle border-0">
-	            <div class="container">
-	            	<div class="row">
-	          <div class="col-sm-6 ">
-                            <div class="widget widget-about">
-                                <h3 style="color: white">eCommerce</h3>
-                                <p>eCommerce CMS (FAMILY FIRST CULTURE) is a clothing brand which portrays the importance of having a family through fashion and clothing. we are focused on showing the world how blessed we are having a family in good and bad times regardless of the cultural and social differences through fashion.</p>
-                                     <div class="social-icons">
-                                     <a href="https://www.instagram.com/ff_culture/" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
-                                  </div><!-- End .soial-icons -->
-                                                            </div><!-- End .widget about-widget -->
-                        </div><!-- End .col-sm-12 col-lg-3 -->
-
-                        <div class="col-sm-3">
-                            <div class="widget">
-                                <h4 class="widget-title">Links</h4><!-- End .widget-title -->
-
-                                <ul class="widget-list">
-                                    <li><a href="about.html">About eCommerce CMS</a></li>
-                                    <li><a href="shop.php">Shop</a></li>
-                                    <li><a href="contact.php">Contact us</a></li>
-                                </ul><!-- End .widget-list -->
-                            </div><!-- End .widget -->
-                        </div><!-- End .col-sm-4 col-lg-3 -->
-
-                        <div class="col-sm-3">
-                            <div class="widget">
-                                <h4 class="widget-title">Contact</h4><!-- End .widget-title -->
-
-                                <ul class="widget-list">
-                                    <li><b>Phone Number:</b> +234 905 580 7624</li>
-                                    <li><b>Email:</b> info@ecommerce.ng </li>
-                                    <li><b>Shop Address:</b>  GRA Benin City Nigeria. </li>
-                                </ul><!-- End .widget-list -->
-                            </div><!-- End .widget -->
-                        </div><!-- End .col-sm-64 col-lg-3 -->
-                  
-	            	
-	            	</div><!-- End .row -->
-	            </div><!-- End .container -->
-	        </div><!-- End .footer-middle -->
-
-	        <div class="footer-bottom">
-	        	<div class="container">
-	        		<p class="footer-copyright">Copyright © 2021 eCommerce CMS. All Rights Reserved.</p><!-- End .footer-copyright -->
-	        	
-	        	</div><!-- End .container -->
-	        </div><!-- End .footer-bottom -->
-        </footer><!-- End .footer -->
-     </div><!-- End .page-wrapper -->
-    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
-
-    <!-- Mobile Menu -->
-    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
-
-    <div class="mobile-menu-container mobile-menu-light">
-        <div class="mobile-menu-wrapper">
-            <span class="mobile-menu-close"><i class="icon-close"></i></span>
-
-            <form action="search.php" method="post" class="mobile-search">
-                <label for="mobile-search" class="sr-only">Search</label>
-                <input type="search" class="form-control" name="keyword" id="mobile-search" placeholder="Search in..." required>
-                <button class="btn btn-primary" name="search" type="submit"><i class="icon-search"></i></button>
-            </form>
-            
-            <nav class="mobile-nav">
-                <ul class="mobile-menu">
-                    <li class="active"> <a href="index.php">Home</a> </li>
-                    <li class="">
-                        <a href="shop.php" class="sf-with-ul">Shop</a>
-                        <ul style="display: none;">
-                        <li><a href="shop.php?CATEGORY=Shirts">Shirts</a></li>
-                        <li><a href="shop.php?CATEGORY=Pants">Pants</a></li>
-                        <li><a href="shop.php?CATEGORY=Jackets">Jackets</a></li>
-                        <li><a href="shop.php?CATEGORY=Hats">Hats</a></li>
-                        </ul>
-                    </li>
-                    <li class=""> <a href="contact.php">Contact</a> </li>
-               </ul>
-            </nav><!-- End .mobile-nav -->
-
-            <div class="social-icons">
-              
-                <a href="https://github.com/taufiq-cancode/ecommerce_cms" class="social-icon" target="_blank" title="GitHub"><i class="icon-github"></i></a>
-                
-            </div><!-- End .social-icons -->
-        </div><!-- End .mobile-menu-wrapper -->
-    </div><!-- End .mobile-menu-container -->
- </body>
-
-</html>
+        <?php include 'includes/footer.php'; ?>

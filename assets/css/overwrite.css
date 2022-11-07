@@ -1,0 +1,115 @@
+.mobile-menu-container {
+  position: fixed;
+  left: -280px;
+  top: 0;
+  bottom: 0;
+  z-index: 1001;
+  background-color: #141e29;
+  width: 100%;
+  max-width: 280px;
+  overflow-y: scroll;
+  box-shadow: 0.1rem 0 0.6rem 0 rgb(51 51 51 / 50%);
+  will-change: transform;
+  visibility: hidden;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  transition: all 0.4s ease;
+}
+.mobile-menu li.open > a,
+.mobile-menu li.active > a {
+  color: skyblue;
+}
+.btn-primary {
+  color: #fff;
+  background-color: skyblue;
+  border-color: skyblue;
+  box-shadow: none;
+}
+
+.banner-content {
+  left: 48px;
+  padding-top: 10px;
+}
+.product-price {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #333;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menu.sf-arrows .sf-with-ul::after {
+  font-family: "molla";
+  content: "\f110";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: none;
+  font-size: 1rem;
+  line-height: 1;
+  margin-top: -0.5rem;
+}
+
+.header-9 .sticky-header.fixed {
+  background-color: #777777e8;
+}
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 15px 0;
+}
+@media screen and (min-width: 992px) {
+  .sticky-header.fixed .logo {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+a:hover,
+.active {
+  color: black !important;
+}
+.menu li:hover > a,
+.menu li.show > a,
+.menu li.active > a {
+  color: #000000;
+}
+.cart-dropdown .cart-count {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 792px) {
+  .product-col .product-title {
+    display: none;
+  }
+}
+.mobile-menu-container {
+  position: fixed;
+  left: -280px;
+  top: 0;
+  bottom: 0;
+  z-index: 1001;
+  background-color: #141e29;
+  width: 100%;
+  max-width: 280px;
+  overflow-y: scroll;
+  box-shadow: 0.1rem 0 0.6rem 0 rgb(51 51 51 / 50%);
+  will-change: transform;
+  visibility: hidden;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  transition: all 0.4s ease;
+}
+.mobile-menu li.open > a,
+.mobile-menu li.active > a {
+  color: skyblue;
+}
+.btn-primary {
+  color: #fff;
+  background-color: skyblue;
+  border-color: skyblue;
+  box-shadow: none;
+}
